@@ -1,0 +1,40 @@
+##fileformat=VCFv4.1
+##Caller_arguments=<MappingQuality_filter=30,BaseQuality_filter=30,GenotypeQuality_filter=30,minRD=1,bam_in=and_NC_a_03.hg19.bam,bedfile=SNP.coord,indent=2>
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency, for each ALT allele, in the same order as listed">
+##INFO=<ID=MQ,Number=1,Type=Float,Description="mean Mapping Quality (not RMS)">
+##INFO=<ID=MQ0,Number=1,Type=Integer,Description="Total Mapping Quality Zero Reads">
+##INFO=<ID=SGC,Number=1,Type=Integer,Description="low GQ heterozygote switched to best homozygote">
+##Time created=18:41:20 11/01/2022
+##contig=<ID=1,length=249250621>
+##contig=<ID=2,length=243199373>
+##contig=<ID=3,length=198022430>
+##contig=<ID=4,length=191154276>
+##contig=<ID=5,length=180915260>
+##contig=<ID=6,length=171115067>
+##contig=<ID=7,length=159138663>
+##contig=<ID=8,length=146364022>
+##contig=<ID=9,length=141213431>
+##contig=<ID=10,length=135534747>
+##contig=<ID=11,length=135006516>
+##contig=<ID=12,length=133851895>
+##contig=<ID=13,length=115169878>
+##contig=<ID=14,length=107349540>
+##contig=<ID=15,length=102531392>
+##contig=<ID=16,length=90354753>
+##contig=<ID=17,length=81195210>
+##contig=<ID=18,length=78077248>
+##contig=<ID=19,length=59128983>
+##contig=<ID=20,length=63025520>
+##contig=<ID=21,length=48129895>
+##contig=<ID=22,length=51304566>
+##contig=<ID=X,length=155270560>
+##contig=<ID=Y,length=59373566>
+##contig=<ID=MT,length=16569>
+##reference=file:hs.build37.1.fa
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	and_NC_a_03
+3	193913088	.	C	T	59.55	PASS	AC=2;AF=1.0;MQ=37.0;MQ0=0	GT:AD:DP:GQ:PL	1/1:0,2:2:6:90,90,90,6,90,90,6,90,6,0
+2	137769420	.	G	A	59.55	PASS	AC=2;AF=1.0;MQ=37.0;MQ0=0	GT:AD:DP:GQ:PL	1/1:0,2:2:6:0,6,6,6,90,90,90,90,90,90
+7	18854050	.	G	A	59.55	PASS	AC=2;AF=1.0;MQ=37.0;MQ0=0	GT:AD:DP:GQ:PL	1/1:0,2:2:6:0,6,6,6,90,90,90,90,90,90
+9	86042288	.	T	C	59.55	PASS	AC=2;AF=1.0;MQ=37.0;MQ0=0	GT:AD:DP:GQ:PL	1/1:0,2:2:6:90,6,90,90,0,6,6,90,90,90
+3	7485155	.	C	A	59.55	PASS	AC=2;AF=1.0;MQ=37.0;MQ0=0	GT:AD:DP:GQ:PL	1/1:0,2:2:6:0,6,6,6,90,90,90,90,90,90
