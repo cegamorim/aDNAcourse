@@ -1,0 +1,10 @@
+genotypename: datasetPCA_filt.bed
+snpname: datasetPCA_filt.bim
+indivname: datasetPCA_filt.fam
+evecoutname: B_datasetPCA_filt.eigs
+evaloutname: B_datasetPCA_filt.eval
+numoutevec: 10
+numthreads: 1
+outliermode: 2
+poplistname: poplistname
+lsqproject: YES

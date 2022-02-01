@@ -1,0 +1,8 @@
+genotypename: datasetPCA_filt.bed
+snpname: datasetPCA_filt.bim
+indivname: datasetPCA_filt.fam
+evecoutname: A_datasetPCA_filt.eigs
+evaloutname: A_datasetPCA_filt.eval
+numoutevec: 10
+numthreads: 1
+outliermode: 2

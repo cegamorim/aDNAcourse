@@ -1,0 +1,8 @@
+genotypename: temp.datasetPCAwLowCovInd.bed
+snpname: temp.datasetPCAwLowCovInd.bim
+indivname: temp.datasetPCAwLowCovInd.fam
+evecoutname: C_datasetPCA_all.eigs
+evaloutname: C_datasetPCA_all.eval
+numoutevec: 10
+numthreads: 1
+outliermode: 2
